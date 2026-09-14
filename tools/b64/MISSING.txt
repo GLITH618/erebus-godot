@@ -1,0 +1,9 @@
+Pending upload:
+- astronaut.png.b64
+- habitat.png.b64
+- greenhouse.png.b64
+- antenna.png.b64
+- craters.png.b64
+- resources.png.b64
+
+Run python3 tools/unpack.py after these land.
