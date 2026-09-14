@@ -2,7 +2,8 @@
 
 Supervivencia lunar en pixel art (cráter Erebus). Proyecto **Godot 4.3+**.
 
-**Repo:** https://github.com/GLITH618/erebus-godot  
+**Repo:** https://github.com/GLITH618/erebus-godot
+
 **Descargar ZIP:** https://github.com/GLITH618/erebus-godot/archive/refs/heads/main.zip
 
 ## Cómo jugar
@@ -17,7 +18,9 @@ python3 tools/unpack.py
 2. Project Manager → **Import** → esta carpeta (`project.godot`).
 3. F5.
 
-`unpack.py` decodifica los sprites (`tools/b64/*.b64` → `assets/sprites/*.png`).
+`unpack.py` decodifica `tools/b64/*.png.b64` → `assets/sprites/*.png`.
+
+`moon.png` / `moon-bump.png` no están en el repo (~6 MB). Si faltan, la órbita 3D usa una esfera gris.
 
 ## Controles
 
@@ -53,5 +56,5 @@ Misión: 4 piezas y reparar la antena al norte.
 
 - `scripts/` motor GDScript (mundo, minado, crafteo, niebla, zoom 2D/3D)
 - `scenes/main.tscn` escena de entrada
-- `assets/sprites/` PNG (tras unpack)
-- `origen-web/` código original web (TypeScript + Three.js)
+- `assets/sprites/` PNG (tras `python3 tools/unpack.py`)
+- `tools/b64/` sprites empaquetados en Base64
