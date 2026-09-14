@@ -1,0 +1,21 @@
+; Engine configuration file.
+; Godot 4.3 o superior — EREBUS: supervivencia lunar
+config_version=5
+
+[application]
+config/name="EREBUS"
+config/description="Supervivencia lunar en pixel art. Zoom 2D/3D, niebla de guerra, minado y crafteo."
+config/version="1.0.0"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
+config/icon="res://icon.svg"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.027451, 0.035294, 0.05098, 1)
